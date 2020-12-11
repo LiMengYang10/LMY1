@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_margin="12dp"
+        android:background="@drawable/shape_common_white_8_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="看了又看"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginRight="4dp"
+            android:background="@drawable/shape_common_white_8_bg"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/dian01"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+
+            <TextView
+                android:text="Apple iPhone XR 64G 红色"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:textColor="#333333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="¥"
+                    android:textColor="@color/red"
+                    android:textSize="11sp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="3999"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/red"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:background="@drawable/shape_book_evaluation_bg"
+                    android:text="看相似"
+                    android:padding="2dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_common_white_8_bg"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/dian01"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+
+            <TextView
+                android:text="Apple iPhone XR 64G 红色"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:text="¥"
+                    android:textColor="@color/red"
+                    android:textSize="11sp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="3999"
+                    android:layout_marginLeft="6dp"
+                    android:textColor="@color/red"
+                    android:textSize="13sp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:background="@drawable/shape_book_evaluation_bg"
+                    android:text="看相似"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
